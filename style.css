@@ -78,6 +78,19 @@ justify-content: center;
   opacity: .4;
 }
 
+.login-card-form .form-item input[type="password"] {
+  padding-right: 2.5rem; 
+}
+
+.login-card-form .form-item .password-toggle-button {
+  position: absolute;
+  top: 0.82rem; 
+  right: 1.4rem; 
+  cursor: pointer;
+}
+
+
+
 .login-card-form .checkbox {
   display: flex;
   align-items: center;
@@ -135,9 +148,6 @@ justify-content: center;
   background-color: rgba(0, 0, 0, .85);
   cursor: pointer;
 }
-
-
-
 
 
 @media (max-width: 768px) {
