@@ -64,6 +64,10 @@ body {
   gap: .5rem;
 }
 
+.register-card-form button {
+  margin-top: 1.5rem; 
+}
+
 .register-card-form .form-item {
   position: relative;
   
@@ -78,7 +82,7 @@ body {
 }
 
 .register-card-footer {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   font-size: calc(1rem * .8);
 }
 
@@ -99,6 +103,12 @@ body {
   background: white;
 }
 
+.register-card-form .form-item .password-toggle-button {
+  position: absolute;
+  top: 0.82rem; 
+  right: 1.4rem; 
+  cursor: pointer;
+}
 
 
 .register-card-form button {
