@@ -127,6 +127,31 @@ body {
   cursor: pointer;
 }
 
+.register-card-header .form-item-icon {
+  margin-top: 1rem; 
+}
+.register-card-header .confirmation-steps li {
+  margin-bottom: 1rem; 
+}
+
+.confirmation-steps ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.confirmation-steps li {
+  text-align: justify;
+  list-style-type: disc;
+}
+
+.register-card-header .confirmation-steps li:last-child {
+  margin-bottom: 0.5rem; 
+}
+
+.register-card-form button {
+  margin-top: -1rem; 
+}
+
 @media (max-width: 768px) {
 
   body {
