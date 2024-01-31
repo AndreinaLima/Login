@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", function () {
       if (passwordInput.type === "password") {
         passwordInput.type = "text"
         togglePasswordButton.innerHTML =
-          '<span class="material-icon material-symbols-outlined" style="cursor: pointer;">visibility_off</span>'
+          '<span class="material-icon material-symbols-outlined" style="cursor: pointer;">visibility</span>'
       } else {
         passwordInput.type = "password"
         togglePasswordButton.innerHTML =
-          '<span class="material-icon material-symbols-outlined" style="cursor: pointer;">visibility</span>'
+          '<span class="material-icon material-symbols-outlined" style="cursor: pointer;">visibility_off</span>'
       }
     })
   }
