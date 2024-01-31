@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
     if (inputField.type === "password") {
       inputField.type = "text"
       button.innerHTML =
-        '<span class="material-icon material-symbols-outlined" style="cursor: pointer;">visibility_off</span>'
+        '<span class="material-icon material-symbols-outlined" style="cursor: pointer;">visibility</span>'
     } else {
       inputField.type = "password"
       button.innerHTML =
-        '<span class="material-icon material-symbols-outlined" style="cursor: pointer;">visibility</span>'
+        '<span class="material-icon material-symbols-outlined" style="cursor: pointer;">visibility_off</span>'
     }
   }
 
